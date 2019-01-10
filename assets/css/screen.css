@@ -99,6 +99,13 @@ License: https://www.wowthemes.net/freebies-license/
  .listfeaturedtag .card, .card-footer {
      border: 0;
 }
+.card-footer {
+    padding: 0px 1.25rem .75rem 1.25rem;
+}
+.card-footer .tags {
+    display: inline;
+    margin: 0px 1em 0px 0px;
+}
  .listfeaturedtag .thumbnail {
      background-size:cover;
      height:100%;
@@ -107,6 +114,7 @@ License: https://www.wowthemes.net/freebies-license/
      background-origin:border-box!important;
      border-top-left-radius: .25rem;
      border-bottom-left-radius: .25rem;
+}
 }
  .listfeaturedtag .card-block {
      padding-left:0;
@@ -160,6 +168,10 @@ License: https://www.wowthemes.net/freebies-license/
 }
  span.post-name,span.post-date,span.author-meta {
      display:inline-block;
+}
+.card-footer span.post-date {
+    display: block;
+    margin: 0px 0px 1em 0px;
 }
  span.post-date,span.post-read {
      color:rgba(0,0,0,.44);
@@ -344,7 +356,6 @@ License: https://www.wowthemes.net/freebies-license/
     }
      .listfeaturedtag .wrapfooter {
          position:relative;
-         margin-top:30px;
     }
      .listfeaturedtag .card-block {
          padding:20px;
