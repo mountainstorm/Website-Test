@@ -38,8 +38,8 @@
                                         <ul class="tags">
                                             {% assign sortedCategories = post.categories | sort %}
                                             {% for category in sortedCategories %}
-                                            <li>
-                                             <a href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category | capitalize }}</a>
+                                            <li data-tag="{{ category | slugify }}">
+                                             <a href="{{ site.baseurl }}/#category={{ category | slugify }}">{{ category | capitalize }}</a>
                                             </li>
                                             {% endfor %}
                                         </ul>
