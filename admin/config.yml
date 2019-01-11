@@ -4,7 +4,8 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
   base_url: http://localhost:5000/
 
-media_folder: "Website-Test/assets/images"
+media_folder: "assets/images"
+public_folder: "Website-Test/assets/images"
 
 collections:
   - name: "article" # Used in routes, e.g., /admin/collections/blog
