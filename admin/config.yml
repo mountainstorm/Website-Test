@@ -5,7 +5,7 @@ backend:
   base_url: http://localhost:5000/
 
 media_folder: "assets/images"
-public_folder: "Website-Test/assets/images"
+public_folder: "assets/images"
 
 display_url: https://mountainstorm.github.io/Website-Test/
 logo_url: https://mountainstorm.github.io/Website-Test/assets/images/logo.png
@@ -19,6 +19,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Featured", name: "featured", widget: "boolean"}
       - {label: "Categories", name: "categories", widget: "list"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "image", widget: "image"}
