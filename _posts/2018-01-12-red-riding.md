@@ -16,4 +16,18 @@ An 1868 Prang catalogue would later claim that such “books in the shape of a r
 
 The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes. 
 
+1. Open knot
+2. Slide to left
+3. Slide to right
+4. Close
+5. Open knot
+6. Slide to left
+7. Slide to right
+8. Close
+9. Open knot
+10. Slide to left
+11. Slide to right
+12. Close
+{:src="{{site.baseurl}}/assets/images/scott.png" .instructions }
+
 As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original — which sees Little Red Riding Hood being gobbled up as well as her grandmother — is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.

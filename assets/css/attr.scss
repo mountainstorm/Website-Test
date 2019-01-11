@@ -17,4 +17,48 @@
     .left {
         float: left;
     }
+
+    .instructions-wrapper {
+        .instructions-img {
+            height: 140px;
+            width: 108px;
+        }
+
+        .instructions-steps {
+            padding: 0px;
+            margin: 0px;
+            li {
+                font-size: x-small;
+                display: inline-block;
+                width: 1.25rem;
+                height: 1.25rem;
+                border: 1px solid rgba(0, 0, 0, 0.125);
+                border-radius: 0.25rem;
+                margin-right: 2px;
+                text-align: center;
+                cursor: pointer;
+
+                &.complete {
+                    color: rgba(0, 0, 0, 0.8);
+                    background: rgba(0, 0, 0, 0.125);
+                }
+            }
+        }
+
+        .instructions {
+            padding-left: 0px;
+
+            li {
+                display: inline;
+
+                &.complete {
+                    color: rgba(0, 0, 0, 0.8);
+                }
+            }
+
+            li::after {
+                content: '.';
+            }
+        }
+    }
 }
