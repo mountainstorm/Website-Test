@@ -305,14 +305,14 @@ License: https://www.wowthemes.net/freebies-license/
      vertical-align:middle;
 }
  @media (min-width:1024px) {
-     .share {
+/*     .share {
          position:fixed;
          display:block;
     }
      .share ul li {
          display:block;
     }
-}
+*/}
  @media (max-width:999px) {
      .alertbar {
          position:relative !Important;
