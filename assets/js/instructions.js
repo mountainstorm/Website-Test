@@ -14,7 +14,7 @@ var selectStep = function ($el) {
         i++;
     })
     var $img = $blockquote.prev()
-    $img.css('background-position', (idx * $img.width()) + 'px 0px' )
+    $img.css('background-position', (idx * 100) + '% 0%' )
 }
 
 $('.instructions').each(function () {
@@ -43,5 +43,9 @@ $('.instructions').each(function () {
 })
 
 $('.instructions-steps > li').mouseenter(function () {
+    selectStep($(this))
+})
+
+$('.instructions-steps > li').click(function () {
     selectStep($(this))
 })
