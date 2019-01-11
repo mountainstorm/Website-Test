@@ -5,6 +5,7 @@ backend:
   base_url: http://localhost:5000/
 
 media_folder: "assets/images"
+public_folder: "Website-Test/assets/images"
 
 display_url: https://mountainstorm.github.io/Website-Test/
 logo_url: https://mountainstorm.github.io/Website-Test/assets/images/logo.png
