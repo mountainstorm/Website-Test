@@ -183,8 +183,8 @@ function filterCategories(category) {
             $(this).fadeIn()
         }
     })
-    var category = queries.category.charAt(0).toUpperCase() + queries.category.slice(1)
-    $('.recent-posts #category-name').text(category)    
+    var name = category.charAt(0).toUpperCase() + category.slice(1)
+    $('.recent-posts #category-name').text(name)
 }
 
 var queries = {}
