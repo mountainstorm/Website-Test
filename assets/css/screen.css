@@ -179,7 +179,9 @@ License: https://www.wowthemes.net/freebies-license/
  span.post-read-more {
      align-items:center;
      display:inline-block;
-     float:right;
+     position: absolute;
+     right: 1em;
+     bottom: 1em;
      margin-top:8px;
 }
  span.post-read-more a {
@@ -359,7 +361,7 @@ License: https://www.wowthemes.net/freebies-license/
          height:auto;
     }
      .listfeaturedtag .wrapfooter {
-         position:relative;
+         /*position:relative;*/
     }
      .listfeaturedtag .card-block {
          padding:20px;
