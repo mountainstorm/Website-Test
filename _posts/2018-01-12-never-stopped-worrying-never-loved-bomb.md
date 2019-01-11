@@ -4,7 +4,6 @@ date: 2018-01-12 00:00:00 Z
 categories:
 - Jekyll
 layout: post
-author: sal
 image: assets/images/14.jpg
 ---
 

@@ -5,7 +5,6 @@ categories:
 - Jekyll
 - tutorial
 layout: post
-author: sal
 image: assets/images/16.jpg
 ---
 
